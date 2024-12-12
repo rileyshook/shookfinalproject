@@ -1,0 +1,49 @@
+/* Custom header style */
+/* Custom header style */
+.custom-header {
+    background: linear-gradient(135deg, #4a90e2, #89c3eb); /* Light-to-medium blue gradient */
+    padding-top: 70px; /* Ensure the padding is still in place */
+    color: white; /* Keep text readable on the blue background */
+}
+
+.carousel-item img {
+    max-width: 20%; /* Reduce the width of the image to 70% of its original size */
+    max-height: 70%; /* Reduce the height proportionally */
+    margin: auto; /* Center the image horizontally */
+    display: block; /* Ensure it's treated as a block element */
+    object-fit: contain; /* Ensure the entire image is shown within the bounds */
+}
+
+
+/* Movie sections */
+.movie-section {
+    padding: 50px 0;
+}
+
+.movie-title {
+    font-size: 2.5rem;
+    color: #343a40;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Navbar */
+.navbar-dark .navbar-brand,
+.navbar-dark .nav-link {
+    color: #f8f9fa;
+}
+
+.navbar-dark .nav-link:hover {
+    color: #99f2c8;
+}
+
+/* Add padding to offset the fixed navbar */
+.custom-header {
+    padding-top: 70px; /* Adjust this value to match the height of your navbar */
+}
+
+/* Footer */
+footer {
+    font-family: 'Arial', sans-serif;
+}
+
